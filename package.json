@@ -1,0 +1,19 @@
+{
+  "name": "crochet-from-photo",
+  "version": "1.0.0",
+  "description": "Upload a photo of an object and get a full crochet pattern: yarn, colors, hook, materials, and step-by-step instructions.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "@google/genai": "^2.24.0",
+    "express": "^5.2.1"
+  }
+}
